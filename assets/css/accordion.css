@@ -5233,7 +5233,8 @@ color: #121212;
 .accordion-item {
     color: var(--bs-accordion-color);
     background-color: var(--bs-accordion-bg);
-    border-bottom: black 1 px solid;
+    border-bottom: 0.5px solid #7D7D7D;
+    /* border-bottom: black 1 px solid; */
 }
 
 .accordion-item:first-of-type {
@@ -5286,7 +5287,7 @@ color: #121212;
 .accordion-flush .accordion-item {
     border-right: 0;
     border-left: 0;
-    border-bottom: black 1 px solid;
+    border-bottom: 0.5px solid #7D7D7D;
 }
 
 .accordion-flush .accordion-item:first-child {
@@ -5300,11 +5301,11 @@ color: #121212;
 .accordion-flush .accordion-item .accordion-button,
 .accordion-flush .accordion-item .accordion-button.collapsed {
     border-radius: 0;
-    border-bottom: black 1 px solid;
+    border-bottom: 0.5px solid #7D7D7D;
 }
 
 .accordion-item {
-    border-bottom: 1px black solid;
+    border-bottom: 0.5px solid #7D7D7D;
 }
 
 [data-bs-theme=dark] .accordion-button::after {
