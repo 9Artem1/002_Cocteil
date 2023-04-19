@@ -565,6 +565,11 @@ h2 {
     padding-bottom: 150px;
 }
 
+.container-reviews > h2 {
+    padding: 0;
+    margin: 0;
+}
+
 .row-reviews {
     padding-top: 60px;
     display: flex;
@@ -690,6 +695,9 @@ h2 {
     padding: 14px 18px 14px 18px;
     background: #514A7E;
 }
+.more-button {
+    display: none;
+}
 
 .points-scroll-review {
  display: none;   
@@ -707,8 +715,6 @@ h2 {
     font-weight: 400;
     font-size: 40px;
     line-height: 87.3%;
-    /* or 35px */
-
     display: flex;
     align-items: center;
     color: #514A7E;
@@ -1460,10 +1466,27 @@ padding-left: 55%;
         overflow-x: hidden;
     }
 
-    .review-button-link {
-        display: none;
+    .button-more-cards {
+        font-family: Roboto, sans-serif;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 16px;
+        align-items: center;
+        color: #FFFDF5;
+        align-items: center;
+        color: #FFFDF5;
+        padding: 14px 18px 14px 18px;
+        background: #514A7E;
     }
 
+    .more-button {
+        display: block;
+        padding-top: 30px;
+    }
+    .container-reviews {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
     
 .points-scroll-review {
     display: flex;
@@ -1473,7 +1496,9 @@ padding-left: 55%;
 
 /* REWIE CARD */
 
-
+    .review-button {
+        display: none;
+    }
     .reviews-card {
         width: 216px;
         height: 101px;
@@ -1745,7 +1770,9 @@ padding-left: 55%;
     }
 
 
-
+.faq {
+    padding-bottom: 60px;
+}
 
 
     .cards-cooperations {
@@ -1760,6 +1787,10 @@ padding-left: 55%;
 
     .cooperations>p {
         text-align: center;
+    }
+
+    .cooperations {
+        padding-bottom: 60px;
     }
 
     .cooperations-item {
@@ -1809,20 +1840,18 @@ padding-left: 55%;
         display: none;
     }
     .h3-mob {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
         padding-top: 60px;
         padding-bottom: 31px;
         font-family: 'Roboto';
-font-style: normal;
-font-weight: 300;
-font-size: 25px;
-line-height: 87.3%;
-/* or 22px */
-
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #121212;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 87.3%;
+        color: #121212;
     }
     
 
