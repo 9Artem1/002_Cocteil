@@ -717,6 +717,10 @@ h2 {
     display: none;
 }
 
+.actions-mobile {
+    display: none;
+}
+
 .cooperations>h2 {
     margin: 0;
     padding-bottom: 73px;
@@ -1516,9 +1520,86 @@ padding-left: 55%;
         display: flex;
     }
 
+
+
+
+
+/* ACTIONS */
+
+
     .container-action>span {
         padding-left: 45%;
     }
+
+    .actions-mobile {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+
+    .card-item-img-1 {
+        width: 150px;
+        height: 171px;
+        background-image: url(img/trade/001.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        filter: drop-shadow(0px 4px 10px rgba(81, 74, 126, 0.2));
+    }
+    .card-item-img-2 {
+        width: 150px;
+        height: 171px;
+        background-image: url(img/trade/002.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        filter: drop-shadow(0px 4px 10px rgba(81, 74, 126, 0.2));
+    }
+    .card-item-img-3 {
+        width: 150px;
+        height: 171px;
+        background-image: url(img/trade/003.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        filter: drop-shadow(0px 4px 10px rgba(81, 74, 126, 0.2));
+    }
+    .card-item-img-4 {
+        width: 150px;
+        height: 171px;
+        background-image: url(img/trade/004.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        filter: drop-shadow(0px 4px 10px rgba(81, 74, 126, 0.2));
+    }
+
+    .item-rating {
+        position: relative;
+        left: 0px;
+        top: 2px;
+    }
+
+    .item-favor {
+        position: relative;
+        left: 125px;
+        top: -170px;
+    }
+
+    .item-add-cart {
+        position: relative;
+        left: 125px;
+        top: 25px;  
+    }
+
+
+/* ACTIONS  END */
+
+
+
+
+
 
     .about-us-item>div {
         border: #514A7E 1px solid;
